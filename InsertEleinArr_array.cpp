@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include<vector>
+#include<string>
 using namespace std;
 
 int insert(int arr[], int n, int x, int cap, int pos)
@@ -29,7 +31,7 @@ int main() {
 
        cout<<"Before Insertion"<<endl;
 
-       for(int i=0; i < n; i++)
+       for(int i=1; i < n; i++)
        {
        	cout<<arr[i]<<" ";
        }
