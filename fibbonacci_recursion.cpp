@@ -7,12 +7,12 @@ using namespace std;
         if(n<=1)
             return n;
         for(i=2;i<=n;i++){
-            s=t1+t1;
+            s=t1+t1+t3+t4;
             t0=t1;
             t1=s;
 
         }
-        return s;
+        return s+1;
     }
 
 
